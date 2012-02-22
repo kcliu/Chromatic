@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Mobile Tutorial on Codeforest.net</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+	</head>
+	<body>
+
+		<div data-role="page">
+
+			<div data-role="header">
+				<h1>Chromatic Scale Caculator</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="c">
+					<div data-role="controlgroup" data-type="horizontal"> 
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">C</a> 
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">Db</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">D</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">Eb</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">E</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">F</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">Gb</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">G</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">Ab</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">A</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">Bb</a>
+						<a data-role="button" data-inline="true" data-theme="e" data-icon="plus">B</a>
+					</div><!-- /controlgroup -->
+			<a data-role="button" data-inline="true" data-theme="b" data-icon="delete">remove</a>
+			<a data-role="button" data-inline="true" data-theme="b" data-icon="refresh">reset</a>
+			<a data-role="button" data-inline="true" data-theme="b" data-icon="arrow-r">Calculate</a>
+			</div><!-- /content -->
+
+			<div data-role="footer">
+			
+				<div><label for="note">notes:</label>
+				<input id="input" value="CDE"></div>
+				<p>result:</p>
+
+			<div class="ui-grid-b">
+	
+				<div class="ui-block-a">
+				<label for="p">p</label>
+				<input id="p" value="0">
+				</div>
+
+				<div class="ui-block-b">
+				<label for="m">m</label>
+				<input id="m" value="0">
+				</div>
+
+				<div class="ui-block-c">
+				<label for="n">n</label>
+				<input id="n" value="0">
+				</div>
+				
+				<div class="ui-block-a">
+				<label for="s">s</label>
+				<input id="s" value="0">
+				</div>
+				
+				<div class="ui-block-b">
+				<label for="d">d</label>
+				<input id="d" value="0">
+				</div>
+			
+				<div class="ui-block-c">
+				<label for="t">t</label>
+				<input id="t" value="0">
+				</div>
+			</div><!-- grid b-->
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+	</body>
+</html>
